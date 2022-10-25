@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* width: 100%; */
+    padding-top: 5px;
+    /* border: 1px solid green; */
+}
+
+header{
+    margin: 0.5em 1em;
+    max-width: 20vw;
+    height: 100vh;
+    /* position: fixed; */
+    /* border: 1px solid blue; */
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    color: #777676;
+    /* height: 50vh; */
+}
+
+img{
+    width: 80px;
+    margin-bottom: .5em;
+    /* border: 1px solid green; */
+}
+
+.up-section{
+    font-size: 0.9rem;
+    margin-bottom: 2em;
+}
+
+.up-section h2{
+    font-size: medium;
+    font-weight: 800;
+}
+
+.up-section h2, .up-section span{
+    margin-bottom: 0.45em;
+}
+
+.up-section h2{
+    color: gold;
+}
+
+.header-links{
+    font-weight: lighter;
+}
+
+input{
+    background: #fff;
+    border: none;
+    font-size: large;
+    width: 60px;
+    margin-bottom: 0.5em;
+    font-weight: lighter;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: large;
+    /* border: 5px solid violet; */
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a{
+    color: #777676;
+    text-decoration: none;
+}
+
+/* Hero Section */
+section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    height: 50vh;
+    /* border: 10px solid blue; */
+    /* width: 100%; */
+}
+
+main{
+    /* border: 5px solid red; */
+    height: 53vh;
+}
+
+main h1{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+main h6{
+    font-size: 0.65rem;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+main img{
+    width: 95%;
+    height: 100%;
+}
+
+aside{
+    /* border: 1px solid firebrick; */
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5px;
+
+}
+
+aside h2{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+aside h6{
+    color: #222;
+    margin-bottom: 5px;
+    font-weight: 900;
+    /* font-size: small; */
+    /* border-bottom: 1px solid #777676; */
+}
+
+aside hr{
+    border: 0;
+   /* border-top: 1px solid #777676; */
+   opacity: .5;
+}
+
+.legend{
+    margin-top: 1.2em;
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+/* Footer section */
+.news{
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-column: 2;
+    margin-top: -8em;
+    /* margin-right: 1em; */
+}
+
+.news h1{
+    margin-bottom: 0.25em;
+}
+
+.news h6{
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.first-left p, .second-left p, .third-left p{
+    color: #555;
+    font-size: small;
+}
+
+.first-row, .second-row, .third-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.first-left, .second-left, .third-left{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-mid, .second-mid, .third-mid{
+    width: 30vw;
+    margin-top: 1.25em;
+    color: #333;
+}
+
+.first-row img, .second-row img, .third-row img{
+    margin-right: 1em;
+    width: 20vw;
+}
